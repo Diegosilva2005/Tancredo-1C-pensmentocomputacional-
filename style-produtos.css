@@ -1,4 +1,26 @@
 body{
-    background-color: black;
-    color: aquamarine;
+    background-color: rgb(216, 206, 206);
+    color: rgb(215, 15, 15);
+}
+.foto-logo{
+    width: 10%;
+    margin-left: 18px;
+    border-radius: 100%;
+}
+nav {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+nav a{font-size: 26px;
+text-decoration: none;
+text-transform: uppercase;
+padding-left: 20px;
+color: #470a0a;
+}
+nav a:hover{
+    font-size: 32px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px #0000ff;
+    transition: 0.5s;
 }

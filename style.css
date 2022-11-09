@@ -1,6 +1,5 @@
 body{
-    background:linear-gradient( #af94da,rgb0, 172, 112,blackground-color rgb(32, 126, 152));
-
+    background: linear-gradient( #4d248f, rgb(154, 9, 144));
     
     margin: 0 auto;
 }
@@ -8,6 +7,24 @@ body{
     width: 10%;
     margin-left: 18px;
     border-radius: 100%;
+}
+nav {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+nav a{
+    font-size: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    color: #cf1f12;
+}
+nav a:hover{
+    font-size: 32px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px #0000ff;
+    transition: 0.5s;
 }
 main {
     text-align: center;
@@ -33,13 +50,15 @@ ul{
     vertical-align: top;
     padding: 10px;
     font-size: 20px;
+    margin-left: 100px;
+    margin-right: 300px;
 }
 li{
     padding: 20px;
     margin: 10px;
 }
 .foto-beneficio{
-    width: 50%;
+    width: 40%;
     text-align: right;
     padding: 10px;
     border-radius: 15px;
